@@ -1,0 +1,26 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)"
+license="LGPLv3"
+issueTrackerURL="https://github.com/yungnickyoung/Structure-Block-Fix/issues"
+
+[[mods]]
+    modId="structureblockfix"
+    version="${file.jarVersion}"
+	displayName="StructureBlockFix"
+    credits="Thanks so much to all my patrons!"
+    authors="YUNGNICKYOUNG"
+    description="Loosens the default size constraints on structure blocks."
+    logoFile="logo.png"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/structure-block-fix"
+
+[[dependencies.structureblockfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+
+[[dependencies.structureblockfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40.0.8,)"
+    ordering="NONE"
+    side="SERVER"

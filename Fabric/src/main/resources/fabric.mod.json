@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "structureblockfix",
+  "version": "${version}",
+  "name": "StructureBlockFix",
+  "description": "Increases the default size limitations on structure blocks.",
+  "authors": [
+    "YUNGNICKYOUNG"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/structure-block-fix-fabric",
+    "sources": "https://github.com/yungnickyoung/Structure-Block-Fix",
+    "issues": "https://github.com/yungnickyoung/Structure-Block-Fix/issues",
+    "discord": "discord.gg/rns3beq"
+  },
+  "license": "LGPLv3",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.yungnickyoung.minecraft.structureblockfix.StructureBlockFixFabric"
+    ]
+  },
+  "mixins": [
+    "structureblockfix.mixins.json",
+    "structureblockfix_fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": ">=1.18.2",
+    "java": ">=17"
+  }
+}
