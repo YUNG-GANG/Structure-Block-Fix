@@ -26,7 +26,7 @@ public abstract class StructureBlockEntityMixin {
             require = 0
     )
     private static int structureblockfix_increaseStructureBlockCornerSearchRange(int constant) {
-        return 120;
+        return 128;
     }
 
     @Inject(method = "load", at = @At("RETURN"))
